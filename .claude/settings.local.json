@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git submodule add:*)",
+      "Bash(rm:*)",
+      "Bash(hugo:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:asterzephyr.github.io)",
+      "Bash(ls:*)",
+      "Bash(git submodule:*)",
+      "Bash(git rm:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(find:*)",
+      "Bash(chmod:*)",
+      "Bash(/Users/hxz/code/Aster.github.io/import-notion.sh:*)",
+      "Bash(./auto-import-deploy.sh:*)",
+      "Bash(mv:*)"
+    ],
+    "deny": []
+  }
+}

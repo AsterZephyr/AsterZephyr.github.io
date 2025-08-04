@@ -31,7 +31,7 @@ ARTICLE_FILE="$2"
 echo -e "${BLUE}🚀 开始添加新文章: $ARTICLE_TITLE${NC}"
 
 # 生成文件名 (URL友好)
-SLUG=$(echo "$ARTICLE_TITLE" | sed 's/[^a-zA-Z0-9\u4e00-\u9fa5]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | tr '[:upper:]' '[:lower:]')
+SLUG=$(echo "$ARTICLE_TITLE" | sed 's/[^a-zA-Z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | tr '[:upper:]' '[:lower:]')
 TARGET_FILE="$POSTS_DIR/${SLUG}.md"
 
 # 检查文件是否已存在
