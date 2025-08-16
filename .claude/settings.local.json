@@ -20,7 +20,8 @@
       "Bash(chmod:*)",
       "Bash(/Users/hxz/code/Aster.github.io/import-notion.sh:*)",
       "Bash(./auto-import-deploy.sh:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(cat:*)"
     ],
     "deny": []
   }
